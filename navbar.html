@@ -1,0 +1,47 @@
+<!-- This is the nav bar for my Python website. The code can be called on any page using the header tags -->
+
+<nav class="navbar">
+    <ul class="main-nav" id="js-menu">
+        <li>
+            <a href="/index.html" class="nav-links">Home</a>
+        </li>
+        <li>
+            <a href="/sudokusolver.html" class="nav-links">Up Next</a>
+        </li>
+        <li>
+            <a href="/coloringbook.html" class="nav-links">About</a>
+        </li>
+        <li>
+            <a href="/Headshots/headshots.html" class="nav-links">Headshots</a>
+        </li>
+        <li>
+            <a href="/Resume/resume.html" class="nav-links">Resume</a>
+        </li>
+        <li>
+            <a href="/Recent/Theatre/theatre.html" class="nav-links">Theatre</a>
+        </li>
+        <li>
+            <a href="/Film/film.html" class="nav-links">Film/Video</a>
+        </li>
+        <li>
+            <a href="/Radio/radio.html" class="nav-links">Radio/Audio</a>
+        </li>
+        <li>
+            <a href="/Skills/skills.html" class="nav-links">Skills</a>
+        </li>
+        <li>
+            <a href="/Contact/contact.html" class="nav-links">Contact</a>
+        </li>
+    </ul>
+</nav>
+
+<script>
+
+let mainNav = document.getElementById("js-menu");
+let navBarToggle = document.getElementById("js-navbar-toggle");
+
+navBarToggle.addEventListener("click", function() {
+  mainNav.classList.toggle("active");
+});
+
+</script>
